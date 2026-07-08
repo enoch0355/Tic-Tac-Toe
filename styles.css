@@ -1,0 +1,40 @@
+div{
+  padding: 5px;
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  max-width: 1200px;
+  background-color: brown;
+  gap: 5px;
+ }
+
+.div > div{
+  background-color: white;
+  border: none;
+  font-size: 2.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+#retry{
+  width: 320px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 2px;
+  background-color: brown;
+  color: white;
+  border: none;
+}
